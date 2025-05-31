@@ -1,6 +1,6 @@
-let Fist = "C is fun";
-let second = "Python is cool";
-let third = "Javascript is amazing";
+const Fist = "C is fun";
+const second = "Python is cool";
+const third = "Javascript is amazing";
 
 console.log(Fist);
 console.log(second);
