@@ -1,4 +1,10 @@
-const args = process.argv.slice(2); 
-if (args.length === 2 ) {
-    console.log(" My number : " + args[1]);
-} 
+#!/usr/bin/node
+
+const arg = process.argv[2];
+const number = Number(arg);
+
+if (!isNaN(number)) {
+  console.log(`My number: ${number}`);
+} else {
+  console.log("Not a number");
+}
